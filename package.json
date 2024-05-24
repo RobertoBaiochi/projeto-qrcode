@@ -5,6 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "prestart": "npm install",
         "start": "node --env-file=.env src/index.js"
     },
     "keywords": [],
